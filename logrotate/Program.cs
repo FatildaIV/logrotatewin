@@ -378,7 +378,7 @@ namespace logrotate
             {
                 if (fi.Length >= lrc.MaxSize)
                 {
-                    Logging.Log(Strings.RotateWhenMaximumFileSize, Logging.LogType.Verbose);
+                    Logging.Log(Strings.RotateBasedonFileSize, Logging.LogType.Verbose);
                     
                     return true;
                 }
